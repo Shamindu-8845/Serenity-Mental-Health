@@ -1,7 +1,7 @@
 package com.serenity.config;
 
 import com.serenity.entity.*;
-import org.example.entity.*;
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

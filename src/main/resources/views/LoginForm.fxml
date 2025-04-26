@@ -9,38 +9,38 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: whiite;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.serenity.controller.LoginFormController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #bdc3c7;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.serenity.controller.LoginFormController">
    <children>
-      <Label layoutX="142.0" layoutY="40.0" text="Serenity Mental Health Therapy Center">
+      <Label layoutX="135.0" layoutY="41.0" text="Serenity Mental Health Therapy Center" textFill="#489ae1">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="94.0" layoutY="108.0" text="Name">
+      <Label layoutX="126.0" layoutY="111.0" text="Name">
          <font>
-            <Font size="15.0" />
+            <Font name="Bodoni MT" size="12.0" />
          </font>
       </Label>
-      <Label layoutX="94.0" layoutY="166.0" text="Password">
+      <Label layoutX="123.0" layoutY="168.0" text="Password">
          <font>
-            <Font size="15.0" />
+            <Font name="Bodoni MT Condensed" size="14.0" />
          </font>
       </Label>
       <Line endX="341.0" layoutX="235.0" layoutY="83.0" startX="-206.0" />
 <!--      <JFXTextField fx:id="txtName" layoutX="186.0" layoutY="106.0" prefHeight="25.0" prefWidth="140.0" promptText="name" />-->
-      <Button fx:id="txtLogin" layoutX="157.0" layoutY="289.0" mnemonicParsing="false" onAction="#loginOnAction" prefHeight="21.0" prefWidth="218.0" style="-fx-background-color: blue; -fx-border-radius: 200px;" text="Login" textFill="WHITE">
+      <Button fx:id="txtLogin" alignment="CENTER" layoutX="147.0" layoutY="275.0" mnemonicParsing="false" onAction="#loginOnAction" prefHeight="21.0" prefWidth="218.0" style="-fx-background-color: #27ae60; -fx-border-radius: 20px;" text="Login" textFill="WHITE">
          <font>
-            <Font name="System Bold" size="20.0" />
+            <Font name="Bodoni MT Condensed Bold" size="18.0" />
          </font>
       </Button>
-      <Label layoutX="94.0" layoutY="223.0" text="User Role">
+      <Label layoutX="125.0" layoutY="226.0" text="User Role">
          <font>
-            <Font size="15.0" />
+            <Font name="Bodoni MT Condensed" size="13.0" />
          </font>
       </Label>
       <ComboBox fx:id="cmbUserRole" layoutX="186.0" layoutY="221.0" prefHeight="25.0" prefWidth="140.0" promptText="Select Job Role" />
-      <TextField fx:id="txtName" layoutX="182.0" layoutY="106.0" />
-      <PasswordField fx:id="txtPassword" layoutX="182.0" layoutY="164.0" />
+      <TextField fx:id="txtName" layoutX="182.0" layoutY="106.0" promptText="Shamindu" />
+      <PasswordField fx:id="txtPassword" layoutX="182.0" layoutY="164.0" promptText="######" />
 <!--      <JFXPasswordField fx:id="txtPassword" layoutX="189.0" layoutY="164.0" promptText="password" />-->
    </children>
 </AnchorPane>

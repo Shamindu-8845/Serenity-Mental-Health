@@ -1,7 +1,7 @@
 package com.serenity.bo;
 
 import com.serenity.bo.custom.impl.*;
-import org.example.bo.custom.impl.*;
+
 
 public class BOFactory {
     public static BOFactory boFactory;
